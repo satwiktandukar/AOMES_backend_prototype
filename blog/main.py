@@ -74,7 +74,12 @@ async def validation_exception_handler(request: Request, exc: RequestValidationE
 #     db.commit()
 #     db.refresh(new_user)
 #     return new_user
-
+@app.get("/")
+def getting_init(): 
+    return {"hello": "world" }
+    
+    
+    
 @app.post("/create", tags=['Login']) 
 def login(request: Login, response: Response, db: Session = Depends(get_db)):
     response.headers["Access-Control-Allow-Origin"] = "*"
