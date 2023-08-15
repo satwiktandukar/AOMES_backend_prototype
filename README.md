@@ -1,6 +1,6 @@
 # Educational Coaching Backend
 
-This is a prototype backend for an educational coaching institution(AOMES)'s entrance preparation system, built using FastAPI in Python.
+This is a prototype backend for an educational coaching institution(AOMES)'s entrance preparation system, that I built using FastAPI in Python as my personal project.
 
 ## Description
 
